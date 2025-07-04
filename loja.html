@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore o catálogo completo de jogos na GeekFusion. Encontre sua próxima aventura: RPG, Ação, Aventura, Esportes e Simulação. Compra fácil e segura.">
+    <title>Loja | GeekFusion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"></noscript>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Geek<span>Fusion</span></a>
+            <button class="hamburger-menu" aria-label="Abrir menu de navegação">
+                <box-icon name='menu'></box-icon>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-main-content">
+        <section class="store-hero">
+            <div class="container">
+                <h1>Nossos Jogos</h1>
+                <p>Explore nosso vasto catálogo e encontre sua próxima aventura.</p>
+            </div>
+        </section>
+
+        <section class="store-content">
+            <div class="container">
+                <aside class="sidebar" role="complementary">
+                    <h3>Filtros</h3>
+                    <div class="filter-group">
+                        <fieldset>
+                            <legend>Gênero</legend>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="gen-rpg">
+                                    <label for="gen-rpg">RPG</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="gen-acao">
+                                    <label for="gen-acao">Ação</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="gen-aventura">
+                                    <label for="gen-aventura">Aventura</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="gen-esportes">
+                                    <label for="gen-esportes">Esportes</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="gen-simulacao">
+                                    <label for="gen-simulacao">Simulação</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div class="filter-group">
+                        <fieldset>
+                            <legend>Preço</legend>
+                            <ul>
+                                <li>
+                                    <input type="radio" id="price-all" name="price-range" value="all" checked>
+                                    <label for="price-all">Todos os Preços</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="price-0-100" name="price-range" value="0-100">
+                                    <label for="price-0-100">Até R$ 100</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="price-101-200" name="price-range" value="101-200">
+                                    <label for="price-101-200">R$ 101 - R$ 200</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="price-201-300" name="price-range" value="201-300">
+                                    <label for="price-201-300">R$ 201 - R$ 300</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="price-301-plus" name="price-range" value="301-99999">
+                                    <label for="price-301-plus">Acima de R$ 300</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <button class="btn-primary apply-filters">Aplicar Filtros</button>
+                </aside>
+                <div class="main-store-grid">
+                   <div class="main-store-grid">
+                        <h2>Todos os Jogos</h2>
+                            <div class="games-grid">
+                            </div>
+                            <div class="pagination">
+                            </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-section">
+                <h3>GeekFusion</h3>
+                <p>Sua plataforma completa para os melhores jogos digitais. Mergulhe em aventuras épicas e descubra seu próximo game favorito.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Visitar nossa página no Facebook"><box-icon type='logo' name='facebook'></box-icon></a>
+                    <a href="#" aria-label="Visitar nosso perfil no Twitter"><box-icon type='logo' name='twitter'></box-icon></a>
+                    <a href="#" aria-label="Visitar nosso perfil no Instagram"><box-icon type='logo' name='instagram'></box-icon></a>
+                    <a href="#" aria-label="Visitar nosso canal no YouTube"><box-icon type='logo' name='youtube'></box-icon></a>
+                </div>
+            </div>
+            <div class="footer-section quick-links">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="loja.html">Loja</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-info">
+                <h3>Contato</h3>
+                <p><box-icon name='map'></box-icon>Rua dos Games, 123, Cidade Geek - BR</p>
+                <p><box-icon name='phone'></box-icon>(11) 9876-5432</p>
+                <p><box-icon name='envelope'></box-icon>contato@geekfusion.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 GeekFusion. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>
